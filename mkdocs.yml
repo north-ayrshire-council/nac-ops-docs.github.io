@@ -1,3 +1,22 @@
-site_name: My Docs
+site_name: NAC OPs Docs
 theme:
   name: material
+  palette:
+    primary: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+  logo: assets/NAC_grey.png
+
+markdown_extensions:
+  - admonition
+
+copyright: Copyright &copy; 2021 North Ayrshire Council
+
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/north-ayrshire-council
+
