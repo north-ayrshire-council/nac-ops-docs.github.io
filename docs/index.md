@@ -1,8 +1,6 @@
 # Welcome to NAC OPs Docs
 
-A really simple update
-
-
+* A really simple update
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
