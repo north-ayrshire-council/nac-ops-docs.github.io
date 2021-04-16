@@ -14,7 +14,7 @@
     
     
       
-        <title>Contribute - NAC OPs Docs</title>
+        <title>Just test MD to test POC - NAC OPs Docs</title>
       
     
     
@@ -62,6 +62,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#just-test-md-to-test-poc" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -71,7 +76,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="NAC OPs Docs" class="md-header__button md-logo" aria-label="NAC OPs Docs" data-md-component="logo">
       
-  <img src="../assets/NAC_grey.png" alt="logo">
+  <img src="../assets/NAC_grey_4.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -87,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Contribute
+              Just test MD to test POC
             
           </span>
         </div>
@@ -160,7 +165,7 @@
 
   <li class="md-tabs__item">
     <a href="./" class="md-tabs__link md-tabs__link--active">
-      Contribute
+      Just test MD to test POC
     </a>
   </li>
 
@@ -183,11 +188,13 @@
   
 
 
-<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="NAC OPs Docs" class="md-nav__button md-logo" aria-label="NAC OPs Docs" data-md-component="logo">
       
-  <img src="../assets/NAC_grey.png" alt="logo">
+  <img src="../assets/NAC_grey_4.png" alt="logo">
 
     </a>
     NAC OPs Docs
@@ -223,9 +230,11 @@
       
       <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
       
+        
+      
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Contribute
+        Just test MD to test POC
       </a>
       
     </li>
@@ -245,9 +254,39 @@
               
                 
                 
-                  <h1>Contribute</h1>
-                
-                
+                <h1 id="just-test-md-to-test-poc">Just test MD to test POC<a class="headerlink" href="#just-test-md-to-test-poc" title="Permanent link">⚓︎</a></h1>
+<h1 id="contributing-and-collaborating">Contributing and Collaborating<a class="headerlink" href="#contributing-and-collaborating" title="Permanent link">⚓︎</a></h1>
+<p>This document is a set of guidelines for contributing and collaborating using Git and Gitlab. These are proposed guidelines, not rules. This guide is designed to make it easy for us all to collaborate together consistently and it is up for wider discussion.</p>
+<h2 id="scriptcode-development">Script/Code Development<a class="headerlink" href="#scriptcode-development" title="Permanent link">⚓︎</a></h2>
+<p>NAC OPs going forward will use <a href="https://git-scm.com/">Git</a> as our <a href="https://en.wikipedia.org/wiki/Version_control">version control system</a>. We will develop new features, update scripts, fix bugs in separate Git branches, raise <a href="https://docs.gitlab.com/ee/user/project/merge_requests">Merge Requests</a>, assign them to a repo owner for review, and the owner will merge to <code>main</code> only after they are happy with the proposed update. </p>
+<p>We do not commit directly to the <code>main</code> branch.</p>
+<p>Useful Git basics:</p>
+<ul>
+<li><a href="https://git-scm.com/book/en/v1/Getting-Started-Git-Basics">Getting Started Git basics</a> for Git beginners</li>
+</ul>
+<h3 id="commits">Commits<a class="headerlink" href="#commits" title="Permanent link">⚓︎</a></h3>
+<p>Please use detailed explanatory text in commit messages:</p>
+<ul>
+<li>If it is related to a Samanage Service Request or Incident, please include the case number; </li>
+<li>If it fixes a bug, please state this and the bug it fixes;</li>
+<li>If it is a new feature, briefly describe the new feature.</li>
+</ul>
+<p>A good commit message will help the whole team, so please make it clear and meaningful.</p>
+<h3 id="branches">Branches<a class="headerlink" href="#branches" title="Permanent link">⚓︎</a></h3>
+<p>There are a few ways to crack this nut and people can get passionate about each method, <a href="https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf">this post covers them at a high level</a>. </p>
+<p>My vote would go for the Github Flow model.</p>
+<h3 id="merge-requests">Merge Requests<a class="headerlink" href="#merge-requests" title="Permanent link">⚓︎</a></h3>
+<p>If you are new to creating Merge Requests, click <a href="https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html">here</a> for an easy-to-follow guide.</p>
+<p>If you are still working on your merge request and are not yet ready for it to be reviewed and merged, then please start the title with <code>WIP:</code> to prevent a Work-In-Progress merge request from being merged before it is ready.</p>
+<p>The Assignee should be one of the repo owners, which should be clearly outlined in the repo README. If you no longer require your branch after a merge to main (and you probably don't) please select the option to <code>Delete source branch when merge request is accepted</code>; this keeps the repo branches nice and tidy.</p>
+<p>Merge Requests should strive to tackle one issue/feature and commits within this should try to "tell a story", making reviewing easier and faster.</p>
+<h1 id="tbc">TBC<a class="headerlink" href="#tbc" title="Permanent link">⚓︎</a></h1>
+<h3 id="notifications">Notifications<a class="headerlink" href="#notifications" title="Permanent link">⚓︎</a></h3>
+<p>Repos should have notifications enabled via webhooks or email to ensure teams have visibilty on the progress/modifications of projects. </p>
+<p>Considerations when using notifications
+1. Only useful notifications (Keep noise to a minimum)
+2. Send to relevant channel(s)
+3. ..... add as required</p>
                 
               
               
@@ -258,6 +297,10 @@
             </article>
           </div>
         </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
         
       </main>
       
@@ -319,7 +362,7 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "navigation.instant", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.fe42c31b.min.js", "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.7353b375.min.js"></script>

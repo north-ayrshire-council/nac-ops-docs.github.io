@@ -6,10 +6,15 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-  logo: assets/NAC_grey.png
+    - navigation.instant
+    - navigation.top
+    - toc.integrate
+  logo: assets/NAC_grey_4.png
 
 markdown_extensions:
   - admonition
+  - toc:
+      permalink: ⚓︎
 
 copyright: Copyright &copy; 2021 North Ayrshire Council
 
