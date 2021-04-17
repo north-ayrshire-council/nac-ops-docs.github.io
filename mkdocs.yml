@@ -9,7 +9,7 @@ theme:
     - navigation.instant
     - navigation.top
     - toc.integrate
-  logo: assets/NAC_grey_4.png
+  logo: assets/nac_2.png
 
 markdown_extensions:
   - admonition
