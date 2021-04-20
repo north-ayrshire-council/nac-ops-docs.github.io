@@ -1,5 +1,5 @@
 # Welcome to NAC OPs Docs
-## Why?
+## Why? :confused:
 
 How often do we see > __does anyone know anything about...?__ or a variation > __where would I find docs about...?__  
 
@@ -11,7 +11,7 @@ The idea with this POC is to demonstrate that this could be possible using versi
     "Documentation is a love letter that you write to your future self."
     **Damian Conway**
 
-## What do we need?
+## What do we need? :+1:
 
 * Documentation written in [Markdown](https://en.wikipedia.org/wiki/Markdown)
 * Using Git version control in [Github](https://github.com/north-ayrshire-council)

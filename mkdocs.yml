@@ -15,6 +15,9 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: ⚓︎
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: Copyright &copy; 2021 North Ayrshire Council
 
