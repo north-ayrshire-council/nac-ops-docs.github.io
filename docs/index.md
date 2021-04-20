@@ -1,16 +1,25 @@
 # Welcome to NAC OPs Docs
+## Why?
 
-* A really simple update
-## Commands
+How often do we see > __does anyone know anything about...?__ or a variation > __where would I find docs about...?__  
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Would it not be amazing if we had **one** place to go that had up-to-date documentation that was searchable :mag:
 
-## Project layout
+The idea with this POC is to demonstrate that this could be possible using version control and open tools. 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+!!! quote
+    "Documentation is a love letter that you write to your future self."
+    **Damian Conway**
+
+## What do we need?
+
+* Documentation written in [Markdown](https://en.wikipedia.org/wiki/Markdown)
+* Using Git version control in [Github](https://github.com/north-ayrshire-council)
+* Using [Material for MKDocs](https://squidfunk.github.io/mkdocs-material/)
+* Built automatically using [Github Actions](https://github.com/features/actions)
+* Published to [Github Pages](https://pages.github.com/)
+
+!!! Info
+    Github Pages is currently a public site, however if adopted I propose that we use Github Enterprise.  
+    This would allow us to [control access to our documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site)
+
