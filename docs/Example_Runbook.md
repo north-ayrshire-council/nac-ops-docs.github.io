@@ -78,7 +78,7 @@ _(e.g. ZFS snapshot, Commvault, etc)_
 
 _(e.g. Does it need authorised? Technical process steps)_
 
-## Monitoring and alerting
+## Monitoring and Alerting
 
 ### Logs
 
@@ -115,11 +115,6 @@ _(e.g. Files are pushed via SFTP. Interfaces?)_
 ### Patching
 
 > When and how are patches deployed?
-
-#### Normal patch cycle
-
-_(e.g. Use the standard OS patch test cycle together with deployment via Jenkins and Capistrano)_
-
 
 ### Data clean-up
 
