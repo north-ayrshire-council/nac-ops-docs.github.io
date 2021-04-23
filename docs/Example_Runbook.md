@@ -118,7 +118,7 @@ _(e.g. Files are pushed via SFTP. Interfaces?)_
 
 ### Data clean-up
 
-> What data needs clenaed-up? when? 
+> What data needs cleaned-up? When does this occur? 
 
  
 ### Log management
@@ -129,3 +129,7 @@ _(e.g. Files are pushed via SFTP. Interfaces?)_
 
 
 [Thanks to SkeltonThatcher](https://github.com/SkeltonThatcher/run-book-template) for inspiring this template and hopefully kicking off team discussion.
+[Skelton Thatcher Consulting](https://skeltonthatcher.com/)
+
+Licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) ![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/3.0/88x31.png)
+
