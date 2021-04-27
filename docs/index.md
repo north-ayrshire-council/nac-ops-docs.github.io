@@ -23,3 +23,11 @@ The idea with this POC is to demonstrate that this could be possible using versi
     Github Pages is currently a public site, however if adopted I propose that we use Github Enterprise.  
     This would allow us to [control access to our documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/changing-the-visibility-of-your-github-pages-site)
 
+## Inspiration
+
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://youtu.be/jCVsW1iv1E0" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
