@@ -26,7 +26,9 @@ The idea with this POC is to demonstrate that this could be possible using versi
 ## Inspiration
 <!-- blank line -->
 <figure class="video_container">
-  <iframe width="784" height="441" src="https://www.youtube.com/embed/jCVsW1iv1E0" frameborder="0" allowfullscreen="true"  align="left" >  </iframe>
+  <iframe width="784" height="441" src="https://www.youtube.com/embed/jCVsW1iv1E0" frameborder="0" allowfullscreen="true"  >  </iframe>
 </figure>
 <!-- blank line -->
+
+## Demo Time :smile:
 
